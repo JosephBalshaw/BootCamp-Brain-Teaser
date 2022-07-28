@@ -28,6 +28,7 @@
 - the quiz now displays a TIMES UP warning to the user and moves them automaticlay to the highscore screen
 - after the last question the js moves the user automaticaly to the highscore screen
 - the user can now return to the home page from the hiogh score screen without issue
+<a href = "https://josephbalshaw.github.io/BootCamp-Brain-Teaser/">Here for deployed app</a>
 
 <h1>First Image</h1>
 
