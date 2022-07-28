@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>High Score Screen</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="flex-column flex-center">
+        <h1>HighScores</h1>
+        <form>
+          <label>Enter your name</label><br>
+          <input type="text" id="player-name"/><br>
+          <button type = "button" id = "myBtn" >submit</button>
+        </form>
+        <p>Score Count: <span id = "score-count"></span>0</p>
+        <ul id = highScore-list></ul>
+        <a href = "./Quiz-home-index.html" id = "Quiz-btn" class = btn>Back to Home</a>
+      </div>      
+    </section>   
+
+    <script src="./assets/Highscore.js"></script>
+  </body>
+</html>
